@@ -46,7 +46,7 @@ npm init // initialize (this is how setup your directory and give project descri
 npm run deploy // Use for this Dapp to deploy to Github
 npm run build
 
-git clone (repo copy/paste)
+git clone (repo copy/paste) 
 git init
 git add .
 git status

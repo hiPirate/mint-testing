@@ -665,7 +665,7 @@
   "sourceMap": "66:352:12:-:0;;;90:33;;;-1:-1:-1;;;;;;90:33:12;113:10;90:33;;;66:352;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "66:352:12:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:36;;;;;;;;;983:25:14;;;971:2;956:18;127:36:12;;;;;;;;90:33;;;;;-1:-1:-1;;;;;90:33:12;;;;;;-1:-1:-1;;;;;373:32:14;;;355:51;;343:2;328:18;90:33:12;310:102:14;313:103:12;;;;;;:::i;:::-;;:::i;:::-;;;225:5;;-1:-1:-1;;;;;225:5:12;211:10;:19;196:101;;;;-1:-1:-1;;;196:101:12;;619:2:14;196:101:12;;;601:21:14;658:2;638:18;;;631:30;697:34;677:18;;;670:62;-1:-1:-1;;;748:18:14;;;741:49;807:19;;196:101:12;;;;;;;;375:24:::1;:36:::0;313:103::o;14:190:14:-;73:6;126:2;114:9;105:7;101:23;97:32;94:2;;;147:6;139;132:22;94:2;-1:-1:-1;175:23:14;;84:120;-1:-1:-1;84:120:14:o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "/home/pirate/Desktop/MintingStationDApp-main/contracts/Migrations.sol",
+  "sourcePath": "/home/pirate/Documents/GitHub/hiPirate/mint-testing/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -1466,12 +1466,12 @@
     "4": {
       "events": {},
       "links": {},
-      "address": "0x78DaB4289237156764Be41c12681e74577e1A5DF",
-      "transactionHash": "0xc924ba498df4332e7f27c7df40324817dcfad12f66a156705af38d776c334117"
+      "address": "0x6EF2861B7Ca633070A1079b51FE0DAC62Ab54809",
+      "transactionHash": "0x77136952df90d970df917bc9d83717f713bb954142b0bf409820660e448aa5b1"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-02T16:11:01.213Z",
+  "updatedAt": "2021-11-02T17:22:32.097Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

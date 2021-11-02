@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@openzeppelin/contracts": "^4.3.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@truffle/hdwallet-provider": "^1.5.1",
     "all": "^0.0.0",
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
+    "chokidar": "^3.5.2",
+    "fs": "^0.0.1-security",
+    "gh-pages": "^3.2.3",
     "ipfs-http-client": "^52.0.0",
     "react": "^17.0.2",
     "react-canvas-draw": "^1.1.1",
@@ -19,11 +24,12 @@
     "redux": "^4.1.1",
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.3.0",
+    "truffle-plugin-verify": "^0.5.15",
     "web-vitals": "^1.0.1",
     "web3": "^1.5.1",
     "web3-eth-contract": "^1.5.2"
   },
-  "homepage": "http://hiPirate.github.io/FullStackMassiveNFTDevelopment",
+  "homepage": "https://hipirate.github.io/mint-testing/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -51,10 +57,6 @@
     ]
   },
   "devDependencies": {
-    "@openzeppelin/contracts": "^4.3.1",
-    "@truffle/hdwallet-provider": "^1.5.1",
-    "fs": "^0.0.1-security",
-    "gh-pages": "^3.2.3",
-    "truffle-plugin-verify": "^0.5.15"
+    "chocidar": "^0.0.1"
   }
 }
